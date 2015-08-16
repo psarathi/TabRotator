@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Rotator",
+  "description": "This extension rotates the tabs based on the given interval",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "38": "assets/images/rotation38.png"
+    }
+  },
+  "icons": {
+    "48": "assets/images/rotation38.png"
+  },
+  "background": {
+    "page": "markup/tabRotator.html",
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "markup/options.html",
+    "chrome_style": true
+  },
+  "permissions": ["http://*/", "https://*/", "tabs", "storage"]
+}

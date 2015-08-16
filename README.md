@@ -1,0 +1,1 @@
+#The TabRotator Chrome extension can be used rotate chrome tabs for particular window#
