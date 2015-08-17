@@ -38,4 +38,5 @@ function tabRotateHandler() {
     });
 }
 chrome.browserAction.onClicked.addListener(tabRotateHandler);
+setBadge(false);
 
